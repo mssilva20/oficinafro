@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tela1", "tela1\tela1.csproj", "{2DD16641-68C4-435B-A0BF-1265A88D1A1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5162DAD5-1FD9-44A0-8377-75317944E010}"
+	ProjectSection(SolutionItems) = preProject
+		cadastrar.cs = cadastrar.cs
+		Conexao.cs = Conexao.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DD16641-68C4-435B-A0BF-1265A88D1A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD16641-68C4-435B-A0BF-1265A88D1A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD16641-68C4-435B-A0BF-1265A88D1A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD16641-68C4-435B-A0BF-1265A88D1A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F0B9486-1F4A-4912-9C0E-460A87C370CB}
+	EndGlobalSection
+EndGlobal

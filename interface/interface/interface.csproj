@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA7960C8-1CED-48EC-AC39-A8B9632DE456}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>interface</RootNamespace>
+    <AssemblyName>@interface</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bdSistemaClienteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bdSistemaClienteDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bdSistemaClienteDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="cadastroclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>cadastroclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cadastroclientes.resx">
+      <DependentUpon>cadastroclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="bdSistemaClienteDataSet.xsc">
+      <DependentUpon>bdSistemaClienteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet.xss">
+      <DependentUpon>bdSistemaClienteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet1.xsc">
+      <DependentUpon>bdSistemaClienteDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet1.xss">
+      <DependentUpon>bdSistemaClienteDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet10.xsc">
+      <DependentUpon>bdSistemaClienteDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet10.xss">
+      <DependentUpon>bdSistemaClienteDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet2.xsc">
+      <DependentUpon>bdSistemaClienteDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet2.xss">
+      <DependentUpon>bdSistemaClienteDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet3.xsc">
+      <DependentUpon>bdSistemaClienteDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet3.xss">
+      <DependentUpon>bdSistemaClienteDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet4.xsc">
+      <DependentUpon>bdSistemaClienteDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet4.xss">
+      <DependentUpon>bdSistemaClienteDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet5.xsc">
+      <DependentUpon>bdSistemaClienteDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet5.xss">
+      <DependentUpon>bdSistemaClienteDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet6.xsc">
+      <DependentUpon>bdSistemaClienteDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet6.xss">
+      <DependentUpon>bdSistemaClienteDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet7.xsc">
+      <DependentUpon>bdSistemaClienteDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet7.xss">
+      <DependentUpon>bdSistemaClienteDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet8.xsc">
+      <DependentUpon>bdSistemaClienteDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet8.xss">
+      <DependentUpon>bdSistemaClienteDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet9.xsc">
+      <DependentUpon>bdSistemaClienteDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="bdSistemaClienteDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bdSistemaClienteDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bdSistemaClienteDataSet9.xss">
+      <DependentUpon>bdSistemaClienteDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
