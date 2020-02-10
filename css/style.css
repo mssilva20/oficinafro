@@ -4,7 +4,11 @@
 
 
 
+/* body{
     
+     background-image: linear-gradient(#f3e4bd, #a70606);
+     
+ }   */
 
 a:hover{
     color:#f9014d
@@ -83,10 +87,15 @@ img{
 }
 
 .row {
-    float: left;
+
     width: 100%;
 }
+.icon{
+    width: 50px;
+    color: aqua;
+    
 
+}
 
 
 /* FIM Gerais
@@ -142,12 +151,12 @@ img{
 
 .box-detalhe{
     position: absolute;
-    width: 28.4%;
     left: 0;
     bottom: 0;
     padding: 15px;
     color: #fff;
     font-size: 15px;
+    width: 100.4%;
 }
 
 .box-detalhe-info{
@@ -221,7 +230,7 @@ input, select, iframe, button{
 h1, h2, h2{
     margin: 0;
     padding: 0;
-    color: aquamarine;
+    color: #eee(1, 12, 8);
 }
 
 ol, ul{
@@ -277,19 +286,30 @@ a:hover {
 }
 
 header .logo img{
-    max-width: 120px;
+    max-width: 133px;
 
 }
 
 .menu-bk{
     background-color: #a70606;
-    width: 70%;
-    max-width: 70%;
+    width: 75%;
+    max-width: 75%;
     text-decoration: 1px transparent ;
     display: inline-block;
     opacity: 78%;
 }
-
+.cabeloja img{
+    height: 30px;
+    width: 30px;
+    line-height: 10px;
+}
+ .cabeloja{
+     color: rgb(255, 255, 255);
+     padding-right: 35px;
+     text-align: right;
+    
+     
+ }
 
 
 /*Inicio seacher 
@@ -380,7 +400,9 @@ header .logo img{
     font-size: 20px;
 }
 
-/*Destinos*/
+/*Corpo*/
+
+
 .destinos-col{
     margin-bottom: 20px;
     display: inline-block;
@@ -390,21 +412,73 @@ header .logo img{
 .destinos-col:not(:last-child){
     margin-right: 2rem;
 }
-
-#footer {
-   
+/*GUIA QUEM SOMO*/
+.paragrafos{
     text-align: center;
-    background: red;
-    position: absolute;
-    bottom: 0;
-    z-index: 50000;   
+}
 
+.paragrafos p{
     
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+    background:#f5e2b0;
+    opacity: 89%;   
+     margin: 10px;
+    padding: 8px;
 }
 
 
 
-/* BREAKPOINTS MÁXIMO
+/*Rodapé*/
+.rodape {
+   
+    text-align: center;
+    background: #a70606;  
+    height: 300px; 
+
+
+}
+
+
+.rodape img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: -10px;
+    margin-top: 15px;
+
+    
+
+}
+
+
+}
+.lista{
+    display: flex;
+    margin:10px;
+    margin-top: -10px;
+}
+
+.lista li{
+    text-align: left;
+    top: 120px;
+    margin-left: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(223, 207, 207);
+   font-size: 15px;
+}
+.cartoes img{
+    position:absolute;
+    left:0;
+    transform: translateY(-60px); 
+    margin-left: 3px;
+}
+
+
+
+
+/* BREAKPOINTS Minimo
 -----------------------------*/
 @media(  max-width:767.9px ){
 
@@ -459,7 +533,7 @@ header .logo img{
 
 
 
-/* BREAKPOINTS MINIMO
+/* BREAKPOINTS Maximo
 -----------------------------*/
 @media (min-width:768px){
     /*Menu*/

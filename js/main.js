@@ -5,7 +5,7 @@ var produtos = [
         valor: 29.90,
         urlImagem: "images/camisatshirt.jpg",
         id: 1,
-        tipo: "CAMISA"
+        tipo: "Camisa"
     },
     
     {
@@ -14,7 +14,7 @@ var produtos = [
         valor: 100.00,
         urlImagem: "images/moletompn.png",
         id: 2,
-        tipo: "CASACO"
+        tipo: "Blusas"
     },
 
     {
@@ -23,7 +23,7 @@ var produtos = [
         valor: 58.90,
         urlImagem: "images/bata-florida-solta.jpg",
         id: 3,
-        tipo: "BATA"
+        tipo: "Bata"
     },
 
     {
@@ -32,7 +32,7 @@ var produtos = [
         valor: 19.90,
         urlImagem: "images/meiaafro.jpg",
         id: 4,
-        tipo: "MEIA"
+        tipo: "Meia"
     },
 
     {
