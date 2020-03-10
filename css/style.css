@@ -445,7 +445,7 @@ form div + div {
 
 label {
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
+  
     width: 90px;
     text-align: right;
 }
@@ -497,34 +497,36 @@ button {
     color:#fff; 
     padding: 30px 0px;
     height: 60%;
+   
   
 }
 
 
 .rodape p{
-    width: 40%;
     margin: 0 10px;
     text-align: left;
+   font-size: 10px;;
 
 }
 
 .footer-col{
-    width: 100%;
+    width: 30%;
     margin-bottom: 30px;
+    display: inline-block;
+    text-align: center;
+   
+}
+
+.footer-col p {
+    text-align: justify;
 }
 
 .footer-col h1{
-    font-size: 18px;
     font-weight: bold;
-    margin: 10px 10px;
-    display: list-item;
-    text-align: left;
+    
 }
 .footer-col .links-uteis li{
-
-padding: 10px 0;
-
-
+    padding: 10px 0;
 }
 
 .col-social li{
@@ -532,11 +534,16 @@ padding: 10px 0;
     padding: 10px 0;
     
 }
-.col-social i{
+.col-social li i{
    
     padding: 10px 0;
     margin-right: 5px;
     
+}
+.col-social li i .fab {
+    
+    font-size: 25px;
+    margin-right: ;
 }
 
  
@@ -628,6 +635,7 @@ padding: 10px 0;
         padding-bottom: 15px;
         border-bottom: 1px solid #ccc;
     }
+  
 }
 
 
