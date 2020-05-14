@@ -32,7 +32,6 @@ window.addEventListener('load', function(event){
     
     
     });
-
 })
 
 function setOpenModal(coluna, produto){
