@@ -3,10 +3,12 @@
 *, * ::before ,*::after {margin: 0%; padding: 0%;} 
 
 
-body{
-    position: relative;
-}
- 
+
+/* body{
+    
+     background-image: linear-gradient(#f3e4bd, #a70606);
+     
+ }   */
 
 a:hover{
     color:#f9014d
@@ -30,7 +32,9 @@ a{
     color: inherit;
 }
 
-
+a:hover{
+    color: #f9014d;
+}
 
 img{
     max-width: 100%;
@@ -431,7 +435,7 @@ header .logo img{
 }
 
 /*Tela de contato*/
-#form-contato {
+form .formu {
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
     width: 400px;
@@ -451,7 +455,7 @@ label {
     width: 90px;
     text-align: right;
 }
-#form-contato input, #form-contato textarea {
+input, textarea {
     /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
     font: 1em sans-serif;
 
@@ -464,7 +468,7 @@ label {
     border: 1px solid #999;
 }
 
-#form-contato input:focus, #form-contato textarea:focus {
+input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #000;
 }
@@ -548,10 +552,6 @@ button {
     margin-right: ;
 }
 
-#copyright{
-  text-align: center;
-  font-size: 15px;
-}
 
 /* BREAKPOINTS Minimo
 -----------------------------*/
@@ -680,4 +680,3 @@ button {
 
 .fl-left{float: left;}
 .fl-right{float:right;}
-.color-red{color:red}

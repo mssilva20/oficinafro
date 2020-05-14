@@ -8,3 +8,7 @@ $(function () {
 
 });
 
+window.produtoSelecionado =  null;
+   
+
+

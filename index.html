@@ -1,186 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>OficinAfro</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-  </head>
-
-  <body>
-
-	  <header class="header">
-        <div class="content">
-
-          <div class="logo d-inline-block">
-              <a href="#">
-                <img src="images/logoofa.png" alt="HTML e CSS Básico ">
-              </a>
-          </div>
-
-          <a href="#" class="nav-toggle fl-right" >
+   <head>
+      <title>OficinAfro</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="css/container-carrinho.css">
+      <link rel="stylesheet" href="css/container-clickimg.css">
+   </head>
+   <body>
+      <header class="header">
+         <div class="content">
+            <div class="logo d-inline-block">
+               <a href="#">
+               <img src="images/logoofa.png" alt="HTML e CSS Básico ">
+               </a>
+            </div>
+            <a href="#" class="nav-toggle fl-right" >
             <i class="fas fa-bars"></i> MENU
-          </a>
-
-          <nav class="nav">
-            <p class="text-right">
-              <span class="nav-close">
-                <i class="fas fa-times"></i>
-              </span>
-            </p>
-            <div class="menu-bk"> 
-              <div class="cabeloja ">
-                <ul class=" links">
-                  <li class="teste-a"><a href="index.html">Nossos produtos</a></li>
-                  <li class="teste-a"><a href="novidades.html">Coleção Carnavraau</a></li>
-                  <li class="teste-a"><a href="contato.html">Contato</a></li>
-                  <li class="teste-a"><a href="quemsomos.html">Quem somos</a></li>
-                  <li class="teste-a"><a href="promocoes.html">Promoções</a></li>
-              </ul>
-              <div>
-                <a href="carrinho.html"></a>
-                <ol>
-                  <a href="carrinho.html"><li>
-                  </li></a> 
-                  <li><a href="#"><img class="carrinho" src="images/shopping.png" alt=""></a></li>
-                </ol>
-              </div>
-
-              </div>
-              
-            <span class="icon">
-            	
-            </span>
-            
-              
-          </div>
-         
-          </nav>
-
-        </div>
-
-        
-    </header>
-     
-    <main>
-      <!-- Inicio sercher  -->
-      <section class="section">
-        <div class="seacher-box">
-          <header>
-            <h1>Oficina Afro</h1>
-            <p class="tagline">Roupas para pessoas, seja você quem for!</p>
-          </header>
-
-          <form name="formsearch" method="post" action="">
-            <input type="search" name="busca" placeholder="Pesquisar">
-            <button type="submite"><i class="fas fa-search"></i></button>
-          </form>
-        </div>
-
-        
-      </section>
-      <!-- Fim Seacher -->
-
-
-
-
-      <!--Start Destinos -->
-      <section id="principal" class="section">
-        <div class="content">  
-          <header class="section-header">
-            <h1>Bem vindes a nossa loja</h1>
-            <p> As melhores peças estão aqui</p>
-          </header>
-        </div>
-      </section>
-
-    
-        
-
-      <!--Start Destinos -->
-
-        <div class="destinos-col display-none">
-            <div class="box">
-                  <div class="box-nome">
-                    Roupas
+            </a>
+            <nav class="nav">
+               <p class="text-right">
+                  <span class="nav-close">
+                  <i class="fas fa-times"></i>
+                  </span>
+               </p>
+               <div class="menu-bk">
+                  <div class="cabeloja ">
+                     <ul class=" links">
+                        <li class="teste-a"><a href="index.html">Nossos produtos</a></li>
+                        <li class="teste-a"><a href="promocoes.html">Promoções</a></li>
+                        <li class="teste-a"><a href="quemsomos.html">Quem somos</a></li>
+                        <li class="teste-a"><a href="contato.html">Contato</a></li>
+                     </ul>
+                     <a href="#" id="btn-carrinho"><img class="carrinho" src="images/shopping.png" alt=""></a>
                   </div>
-                  <a class="box-cover">
-                    <img src="images/camisatshirt.jpg" alt=""/>
-                  </a>
-                  <div class="box-detalhe">
-                      <div class="box-detalhe-info">
-                          <h2> Figueira da Fox</h2>
-                          <p>Portugal</p>
-                      </div>
-                </div>
-          </div>
-        </div>
+                  <span class="icon">
+                  </span>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <!-- Inicio sercher  -->
+         <section class="section">
+            <div class="seacher-box">
+               <header>
+                  <h1>Oficina Afro</h1>
+                  <p class="tagline">Roupas para pessoas, seja você quem for!</p>
+               </header>
+               <form name="formsearch" method="post" action="">
+                  <input type="search" name="busca" placeholder="Pesquisar">
+                  <button type="submite"><i class="fas fa-search"></i></button>
+               </form>
+            </div>
+         </section>
+         <!-- Fim Seacher -->
+         <!--Start Destinos -->
+         <section id="principal" class="section">
+            <div class="content">
+               <header class="section-header">
+                  <h1>Bem vindes a nossa loja</h1>
+                  <p> As melhores peças estão aqui</p>
+               </header>
+            </div>
+         </section>
+         <!--Start Destinos -->
+         <div class="destinos-col display-none">
+            <div class="box">
+               <div class="box-nome">
+                  Roupas
+               </div>
+               <a class="box-cover">
+               <img src="images/camisatshirt.jpg" alt=""/>
+               </a>
+               <div class="box-detalhe">
+                  <div class="box-detalhe-info">
+                     <h2> Figueira da Fox</h2>
+                     <p>Portugal</p>
+                  </div>
+               </div>
+            </div>
+         </div>
       </main>
-
       <footer class="rodape">
-        <div class="container">
-          <div class="footer-col">  
-            <h1>Sobre a empresa</h1>
-            <p>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></p>
-          </div>
-          <div class="footer-col">  
-            <h1>Links Úteis</h1>
-            <ul class="links-uteis">
-              <li><a href="#">DOLOR iMPUM</a></li>
-              <li><a href="#">DOLOR iMPUM</a></li>
-              <li><a href="#">DOLOR iMPUM</a></li>
-              <li><a href="#">DOLOR iMPUM</a></li>
+         <div class="footer-col">
+            <h2>Sobre a empresa</h2>
+            <p>dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         </div>
+         <div class="footer-col">
+            <h2>Encontre-nos</h2>
+            <ul style="font-size:28.5px ;" >
+               <li><a href="#"> <i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+               <li><a href="#"> <i class="fab fa-whatsapp"></i></a></li>
             </ul>
-          </div>
-          <div class="footer-col">  
-            <h1>REDES SOCIAS</h1>
-            <ul class="col-social">
-              <li><a href="#"> <i class="fab fa-twitter"></i> TWITTER</a></li>
-              <li><a href="#"> <i class="fab fa-facebook-f"></i>
+         </div>
+         <div class="footer-col">
+         <div class="lista">
+            <h2>Endereço</h2>
+            Av: Brigaeiro Luiz Antonio 4556
+            <br>
+            CEP 01222-212 - São Paulo/SP
+            <br>
+            CNPJ 77.888.000/0000-44
+            <br>
+            WhatsApp Business: <br>
+            +55 11 95235-8229
+         </div>
+      </div>
 
-                FACE</a></li>
-              <li><a href="#"> <i class="fab fa-instagram"></i>
-
-                INSTA</a></li>
-              
-            </ul>
-            <div class="lista">
-              Av: Brigaeiro Luiz Antonio 4556
-              <br>
-             CEP 01222-212 - São Paulo/SP
-             <br>
-             CNPJ 77.888.000/0000-44
-             <br>
-             WhatsApp Business: <br>
-             +55 11 95235-8229
-         
-          </div>
-        </div>
-       </footer>
-                
-             <!--<div class="lista">
-               <img src="images/logoofa.png" alt="">
-                Av: Brigaeiro Luiz Antonio 4556
-                <br>
-               CEP 01222-212 - São Paulo/SP
-               <br>
-               CNPJ 77.888.000/0000-44
-               <br>
-               WhatsApp Business: <br>
-               +55 11 95235-8229
-             </div class="cartoes">
-             <img style="position:absolute;; transform: translateX(-60px) ; margin-left: 3px; "  src="images/cartoes2.svg" alt="">           
-           </div>
-              --> 
- 
+         <div id="#copyright">            
+            <dl> © 2020 OficinAfro - todos os direitos reservados.</dl>        
+         </div>
+      </footer>
+      
     
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-     <script src="js/script.js"></script>
-     <script src="js/main.js"></script>
+      <!--Inicio da Div geral-->
 
-  </body>
+      <div id="container-carrinho-geral" class="modal">
+         <div id="container-carrinho">
+            <h3 style=" margin: 5px; padding: 5px;"> <strong>Sua sacola</strong></h3>
+            <hr>
+            <div id="close">
+               <a href="#"> <i class="far fa-times-circle"></i></a>
+            </div>
+            <div id="items">
+               <img style="widows: 80px;height: 80px; ;" src="images/macacao.jpg" alt="">
+               <h5><strong>Nome do item</strong></h5>
+               <dt style="font-size: 12px;">Vendido por @nomedofornecedor</dt>
+            </div>
+            <div>
+               <input class="input-v" type="number" step="1" min="0" max="" name="cart[aa2bd246addcc5892184bdf6ba9580ce][qty]" value="1" title="quantidade"  size="4" pattern="[0-9]*" inputmode="numeric" >
+               <a href="#" class="remove"> </a>							
+            </div>
+            <div style="display: inline-block; width: 20px; position: absolute; right: 54px;
+               top: 66px;">
+               <span>valor item</span>
+            </div>
+            <div> 
+               <input id="botao-finalizar" type="button" value="Finalizar Compra">
+            </div>
+         </div>
+      </div>
+      <!--Fim da Div geral-->
+
+      <!--Template click imagem-->
+      <div id="cotainer-geral-click" class="modal" >
+         <div id="container-clickimg">
+            <div class="coluna image">
+               <img src="images/kimonoafro.jpg" alt="" style="width:300px; margin: 10px;">  
+            </div>
+            <div class="coluna">
+               <form>
+                  <h1 class="title">Nome do item </h1>
+                  <br>
+                  <div id="close">
+                     <a href="#"> <i class="far fa-times-circle"></i></a>
+                  </div>
+                  <spam class="description">
+                     é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                     e vem sendo 
+                     utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja.
+                  </spam>
+                  <br><br>
+                  <p> <i>Disponivel para encomenda</i> </p>
+                  <br> 
+                  <div class="price">
+                     R$ <span>67,90</span>
+                  </div>
+                  <hr>
+                  <ul>
+                     <li><input type="radio" name="tamanho">P</li>
+                     <li><input type="radio" name="tamanho">M</li>
+                     <li><input type="radio" name="tamanho">G</li>
+                     <li><input type="radio" name="tamanho">GG</li>
+                  </ul>
+                  <span >Não tem o seu tamanho ? <a href="#">clique aqui</a> </span>
+                  <br> <br>
+                  <hr> 
+                  <div class="text-right inputadc">
+                     <input  type="button" value="Adicionar ao carrinho">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+     
+      <!--FIM Template click imagem-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/click.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/carrinho.js"></script>
+     
+   </body>
 </html>

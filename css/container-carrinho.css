@@ -1,0 +1,84 @@
+.modal{
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 25, 25, .9);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    display: none;
+}
+
+.modal.active {
+    display: block;
+}
+
+#container-carrinho{
+    font-family: Mon Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    height: 400PX;
+    width: 450px;
+    background: #fff;
+    top: -500px;
+    left: calc(50% - 225px);
+    transition: .7s ease-out;
+    z-index: 120;
+
+}
+#container-carrinho-geral.active #container-carrinho {
+    top: 100px;
+}
+
+#close{
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+#close a i{
+    color: black;
+}
+#items{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+#items img{
+    width: 160;
+    height: 110;
+
+}
+#container-carrinho .input-v{
+    border-radius: 50px;
+    display: inline-block;
+    width: 50px;
+    position: absolute ;
+    right: 150px;
+    top: 66px;
+    padding: 3px; margin: 5px;
+}
+#total{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+#botao-finalizar{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    background: rgba((0,0,0,0);

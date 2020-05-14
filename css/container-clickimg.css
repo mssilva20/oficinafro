@@ -1,0 +1,62 @@
+#container-clickimg{
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    position: absolute;
+    background: blanchedalmond;
+    left: calc(50% - 35%) ;
+    top: -600px;
+
+}
+
+#container-clickimg .coluna{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+
+}
+#container-clickimg hr{
+   border-color: #cccccc;
+   border-bottom: 0;
+}
+
+#container-clickimg form ul li{
+    display: inline-block;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    margin: 16px;
+    border: 2px solid #cccccc;
+}
+#container-clickimg span a {
+    color: black;
+}
+
+#container-clickimg span a:hover {
+    color: brown;
+}
+
+.input-v{
+    margin-top: 20px;
+}
+
+#container-clickimg .inputadc{
+    margin: 10px;
+    
+}
+#container-clickimg .inputadc input{
+    width: 160px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'GT Haptik', 'gt-haptik-medium', sans-serif;
+}
+
+
+
+
+/*Teste*/
+
+
